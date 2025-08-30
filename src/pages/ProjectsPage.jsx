@@ -33,7 +33,8 @@
 
 import React, { memo } from 'react';
 import { motion } from 'framer-motion';
-import AllProjects from '../components/Sections/AllProjects';
+import AllProjects from "../components/Sections/Allprojects";
+
 import { allProjects } from '../data/projects';
 
 const ProjectsPage = memo(() => {

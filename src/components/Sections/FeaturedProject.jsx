@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import TiltCard from '../UI/TiltCard';
-import AnimatedCard from '../UI/AnimatedCard';
+import TiltCard from '../Ui/TiltCard';
+import AnimatedCard from '../Ui/AnimatedCard';
 
 const FeaturedProjects = ({ projects }) => {
   return (

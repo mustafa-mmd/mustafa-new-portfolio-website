@@ -1,9 +1,9 @@
 import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import TiltCard from '../UI/TiltCard';
-import AnimatedCard from '../UI/AnimatedCard';
-import ProjectSkeleton from '../UI/ProjectSkeleton';
+import TiltCard from '../Ui/TiltCard';
+import AnimatedCard from '../Ui/AnimatedCard';
+import ProjectSkeleton from '../Ui/ProjectSkeleton';
 
 const AllProjects = memo(({ projects, isLoading = false }) => {
   if (isLoading) {

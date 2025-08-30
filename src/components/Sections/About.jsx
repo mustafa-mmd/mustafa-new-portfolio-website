@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { timelineData } from '../../data/dataTimeline';
-import AnimatedCard from '../UI/AnimatedCard';
-import TiltCard from '../UI/TiltCard';
+import AnimatedCard from '../Ui/AnimatedCard';
+import TiltCard from '../Ui/TiltCard';
 import mus from '../../assets/mus.jpeg'
 const About = () => {
   return (

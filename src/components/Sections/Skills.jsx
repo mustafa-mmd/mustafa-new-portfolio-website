@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { skills } from '../../data/skills';
-import AnimatedCard from '../UI/AnimatedCard';
+import AnimatedCard from '../Ui/AnimatedCard';
 
 const Skills = () => {
   // Animation variants

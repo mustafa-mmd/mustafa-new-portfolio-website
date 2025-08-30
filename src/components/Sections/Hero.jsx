@@ -102,7 +102,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
             className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed"
           >
-            A passionate <span className="text-primary-400 font-semibold">Full-Stack (MERN) Developer</span> dedicated to creating seamless, responsive, and high-performance web applications. I combine modern frontend experiences with powerful backend solutions to deliver products that are scalable, reliable, and user-focused.
+            A passionate <span className="text-primary-400 font-semibold">Full-Stack (MERN) Developer </span>crafting sleek, responsive, and scalable web applications. I blend modern design with powerful frontend and backend solutions to deliver seamless user experiences that make an impact.
           </motion.h2>
 
           {/* Action Buttons */}

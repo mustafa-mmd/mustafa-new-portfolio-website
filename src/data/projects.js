@@ -1,0 +1,187 @@
+import blog from '.././assets/blog.png'
+import fee from '.././assets/fee.png'
+import calculator from '.././assets/calculator.png'
+import chair from '.././assets/chair.png'
+import cofeeshop from '.././assets/cofeeshop.png'
+import crud from '.././assets/crud.png'
+import currencyconverter from '.././assets/currencyconverter.png'
+import ecommerce from '.././assets/ecommerce.png'
+import furni from '.././assets/furni.png'
+import password from '.././assets/password.png'
+import smartui from '.././assets/smartui.png'
+import sunglasses from '.././assets/sunglasses.png'
+import tictoc from '.././assets/tictoc.png'
+import todo from '.././assets/todo.png'
+import uni from '.././assets/uni.png'
+import userlist from '.././assets/userlist.png'
+import weather from '.././assets/weather.png'
+
+export const featuredProjects = [
+  {
+    id: 1,
+    title: "Blog-Application",
+    description: "Developed a full-stack Blog Application with secure authentication, allowing users to seamlessly register and log in. Implemented CRUD functionality for creating, editing, and deleting posts with detailed post views. Focused on delivering a responsive, user-friendly experience with optimized performance.",
+    image:blog,
+    tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","cors","Mongoose"],
+    demoLink: "https://frontend-of-mern-crud.vercel.app",
+    codeLink: "",
+    featured: true
+  },
+  {
+    id: 2,
+    title: "Fee Management System",
+    description: "Built a full-stack Fee Management System to track students and their fee statuses with real-time updates. Integrated a secure simulation-based payment feature for managing transactions. Designed a responsive interface to streamline student and fee management efficiently.",
+    image:fee,
+    tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","Mongoose"],
+    demoLink: "https://fee-management-system-frontend.vercel.app",
+    codeLink: "https://github.com/mustafa-mmd/fee-management-system-frontend",
+    featured: true
+  },
+  {
+    id: 3,
+    title: "Currency Converter",
+    description: "Developed a responsive Currency Converter using HTML, CSS, and JavaScript. Integrated a live exchange rate API to convert currencies instantly between different countries. Designed with a simple and user-friendly interface for quick and accurate conversions.",
+    image: currencyconverter,
+    tech: ["Html", "Css", "Currency Converter API", "javaScript"],
+    demoLink: "https://mustafa-mmd.github.io/currency-converter/",
+    codeLink: "https://github.com/mustafa-mmd/currency-converter",
+    featured: true
+  },
+  {
+    id: 4,
+    title: "Furni Interior Design",
+    description: "We help you make modern interior choices that reflect your style and comfort. Our design-first approach blends aesthetics with functionality, creating spaces that feel both elegant and livable. Explore a sleek, responsive website crafted to inspire and transform your interiors.",
+    image: furni,
+    tech: ["Html", "Css", "Javascript", "Responsive Design"],
+    demoLink: "https://mustafa-mmd.github.io/ecommerce-websit/",
+    codeLink: "https://github.com/mustafa-mmd/ecommerce-websit",
+    featured: false
+    
+  },
+  {
+    id: 5,
+    title: "Weather Application",
+    description: "A responsive Weather Application that provides real-time weather updates for any location using a public weather API. Features include current temperature, humidity, wind speed, and weather conditions with an intuitive user interface.",
+    image:weather,
+    tech: ["Html", "Css", "JavaScript","Weather Api", "Responsive Design"],
+    demoLink: "https://mustafa-mmd.github.io/weather-application/",
+    codeLink: "https://github.com/mustafa-mmd/weather-application",
+    featured: true
+  },
+  {
+    id: 6,
+    title: "CRUD Operations App",
+    description: "Developed a CRUD application using Node.js, Express.js, MongoDB, and EJS for dynamic rendering. Users can create, read, update, and delete records with seamless database integration. Built with a clean UI and efficient backend for smooth data management.",
+    image:crud ,
+    tech: ["Node js", "Express js","Mongoose","MonogoDB","Ejs" ,"Tailwind CSS", "Dotenv","Serverless Https"],
+    demoLink: "https://crud-operation-with-ejs.onrender.com",
+    codeLink: "https://github.com/mustafa-mmd/crud-operation-with-ejs",
+    featured: false
+  }
+];
+
+export const allProjects = [
+  ...featuredProjects,
+  
+  {
+    id: 7,
+    title: "Smart.UI Of House",
+    description: "Time to get your house clean and organized with ease. Designed to promote fresh living and better air quality through a modern, user-friendly interface. A clean, responsive UI that blends simplicity with functionality.",
+    image:smartui ,
+    tech: ["Html", "Css", "Javascript", "Responsive Design","hover effects"],
+    demoLink: "https://mustafa-mmd.github.io/Blog-Website-1/",
+    codeLink: "https://github.com/mustafa-mmd/Blog-Website-1",
+    featured: false
+  },
+  {
+    id: 8,
+    title: "Coffee Shop Website",
+    description: "Designed a modern and visually appealing Coffee Shop website with HTML, CSS, and JavaScript. Focused on delivering an engaging user interface with smooth layouts and aesthetic visuals. Built as a static site to showcase brand identity and design creativity.",
+    image:cofeeshop,
+    tech: ["Html", "Css", "JavaScript", "Responsive Design"],
+    demoLink: "https://mustafa-mmd.github.io/coffee-Shop/",
+    codeLink: "https://github.com/mustafa-mmd/coffee-Shop",
+    featured: true
+  },
+  {
+    id: 9,
+    title: "Calculator",
+    description: "A clean and responsive calculator built with HTML, CSS, and JavaScript. Designed for fast, accurate, and user-friendly calculations with a modern interface. Showcases core logic handling, interactive UI, and seamless usability across devices.",
+    image:calculator,
+    demoLink: "https://mustafa-mmd.github.io/calculator/",
+    codeLink: "https://github.com/mustafa-mmd/calculator",
+    tech: ["Html", "Css", "JavaScript", "Responsive Design","Calculator Logic"]
+  },
+  {
+    id: 10,
+    title: "Todo App",
+    description: "A simple and efficient To-Do App designed for quick task management. Users can easily add new tasks and remove completed ones. Built with a clean UI to ensure a smooth and minimal experience.",
+    image:todo,
+    demoLink: "https://mustafa-mmd.github.io/todo-list-in-js/",
+    codeLink: "https://github.com/mustafa-mmd/todo-list-in-js",
+    tech: ["Html", "Css", "JavaScript", "Responsive Design", "Add and Remove Task", "Local Storage", "Task Counter"]
+  },
+  {
+    id: 11,
+    title: "Sunglasses Store",
+    description: "An e-commerce website for a sunglasses store, featuring a sleek design and user-friendly interface. Showcases various sunglasses products with detailed views and smooth navigation. Built to provide an engaging shopping experience.",
+    image:sunglasses,
+    demoLink: "https://pakshades-8gz5.vercel.app/",
+    codeLink: "https://github.com/mustafa-mmd/pakshades",
+    tech: ["React", "Css", "emailjs Api", "Responsive Design","Add to cart", "Filteration","searching","material ui"]
+  },
+  {
+    id: 12,
+    title: "Password Generator",
+    description: "A secure password generator that creates strong, random passwords based on user-defined criteria. Features options for length and character types to ensure maximum security. Designed with a simple and intuitive interface for ease of use.",
+    image:password,
+    demoLink: "https://mustafa-mmd.github.io/passwordGenerator/",
+    codeLink: "https://github.com/mustafa-mmd/passwordGenerator",
+    tech: ["Html", "Css", "JavaScript", "Responsive Design", "Password Strength","Api"]
+  },
+  {
+    id: 13,
+    title: "University Website",
+    description: "A modern and informative university website designed to provide essential information about courses, faculty, and campus life. Features a clean layout and responsive design for easy navigation across devices.",
+    image:uni,
+    demoLink: "https://react-website-two-ashy.vercel.app/",
+    codeLink: "https://github.com/mustafa-mmd/react-university-website",
+    tech: ["React", "Css", "Responsive Design", "React Router", "Component-Based Architecture"]
+  },
+  {
+    id: 14,
+    title: "Tic Tac Toe Game",
+    description: "An interactive Tic-Tac-Toe game built with a clean and responsive interface. Players can compete in a classic X vs O challenge with instant win detection. Designed for fun, simplicity, and smooth user experience.",
+    image:tictoc,
+    demoLink: "https://mustafa-mmd.github.io/Tic-Toc-Toe/",
+    codeLink: "https://github.com/mustafa-mmd/Tic-Toc-Toe",
+    tech: ["Html", "Css", "JavaScript", "Responsive Design", "Game Logic"]
+  },
+  {
+    id: 15,
+    title: "User List App",
+    description: "A user management application built with React and Redux Toolkit. Allows users to add and delete user data efficiently. Features a responsive design and seamless state management for an optimal user experience.",
+    image:userlist,
+    demoLink: "https://66eeb11433a5bb45b23d3880--preeminent-cuchufli-05af48.netlify.app/",
+    codeLink: "https://github.com/mustafa-mmd/react-redux-Tolkit-add-delete-userData",
+    tech: ["React", "Redux Tolkit","Material Ui", "Css", "Responsive Design","Api", "Add and Delete user"]
+  },
+  {
+    id: 16,
+    title: "Modern Chair Store",
+    description: "A sleek and modern chair store website designed to showcase a variety of chair designs. Features a clean layout, responsive design, and user-friendly navigation to enhance the shopping experience.",
+    image:chair,
+    demoLink: "https://mustafa-mmd.github.io/Modern-Chair/",
+    codeLink: "https://github.com/mustafa-mmd/Modern-Chair",
+    tech: ["Html", "Css","Responsive Design", "Logic for color changing of image", "E-commerce Design"]
+  },
+  {
+    id: 17,
+    title: "E-commerce Website",
+    description: "A modern e-commerce store built with API integration for dynamic product listings. Implemented Redux Toolkit for efficient state management, including seamless add-to-cart and remove functionality. Designed with a responsive UI.",
+    image:ecommerce,
+    demoLink: "https://silver-palmier-d293fe.netlify.app/",
+    codeLink: "https://github.com/mustafa-mmd/my-ecommerce-store-redux-tolkit",
+    tech: ["React","Redux Tolkit", "Api for products","Css","Responsive Design","Add to cart","material Ui"]
+  },
+];

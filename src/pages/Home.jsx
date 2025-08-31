@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import Hero from '../components/Sections/Hero';
 import FeaturedProjects from '../components/Sections/FeaturedProject';
 import { featuredProjects } from '../data/projects';
-
+import { Link } from 'react-router-dom';
+import QuickLinks from '../components/Sections/QuickLinks';
 const Home = () => {
   return (
     <motion.div
@@ -29,7 +30,12 @@ const Home = () => {
 
         </div>
       </section>
+      
+      
+
+      <QuickLinks />
     </motion.div>
+    
   );
 };
 

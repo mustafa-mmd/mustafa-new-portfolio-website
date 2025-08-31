@@ -7,6 +7,7 @@ export const skills = [
       { name: "CSS3", icon: "🎨", level: "Expert" },
       { name: "JavaScript", icon: "📜", level: "Expert" },
       { name: "React", icon: "⚛️", level: "Expert" },
+      { name: "Redux Toolkit", icon: "🛠️", level: "Advanced" },
       { name: "Next.js", icon: "🚀", level: "Advanced" },
       { name: "TypeScript", icon: "🔷", level: "Advanced" }
     ]
@@ -15,22 +16,32 @@ export const skills = [
     category: "UI Frameworks & Libraries",
     icon: "🎨",
     items: [
-      { name: "Tailwind CSS", icon: "💨", level: "Expert" },
-      { name: "Bootstrap", icon: "🔷", level: "Expert" },
-      { name: "Material UI", icon: "🧩", level: "Advanced" },
-      { name: "Framer Motion", icon: "✨", level: "Advanced" },
-      { name: "React Icons", icon: "🎯", level: "Expert" }
+      
+  { name: "Tailwind CSS", icon: "💨", level: "Expert" },
+  { name: "Bootstrap", icon: "🔷", level: "Expert" },
+  { name: "Material UI", icon: "🧩", level: "Advanced" },
+  { name: "Framer Motion", icon: "✨", level: "Advanced" },
+  { name: "React Icons", icon: "🎯", level: "Expert" },
+  { name: "Ant Design", icon: "🏮", level: "Advanced" },
+  { name: "Styled Components", icon: "🎨", level: "Expert" },
+  
+
+
     ]
   },
   {
     category: "Backend & Databases",
     icon: "⚡",
     items: [
-      { name: "Node.js", icon: "🟢", level: "Advanced" },
-      { name: "Express.js", icon: "🚂", level: "Advanced" },
-      { name: "MongoDB", icon: "🍃", level: "Intermediate" },
-      { name: "REST APIs", icon: "🔌", level: "Advanced" }
-    ]
+  { name: "Node.js", icon: "🟢", level: "Advanced" },
+  { name: "Express.js", icon: "🚂", level: "Advanced" },
+  { name: "MongoDB", icon: "🍃", level: "Advanced" },
+  { name: "Mongoose", icon: "📘", level: "Advanced" },
+  { name: "REST APIs", icon: "🔌", level: "Advanced" },
+  { name: "JWT", icon: "🔑", level: "Advanced" },
+  { name: "bcrypt", icon: "🔒", level: "Advanced" }
+]
+
   },
   {
     category: "Tools & Platforms",

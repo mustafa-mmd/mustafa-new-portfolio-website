@@ -20,7 +20,7 @@ export const featuredProjects = [
   {
     id: 1,
     title: "Blog-Application",
-    description: "Developed a full-stack Blog Application with secure authentication, allowing users to seamlessly register and log in. Implemented CRUD functionality for creating, editing, and deleting posts with detailed post views. Focused on delivering a responsive, user-friendly experience with optimized performance.",
+    description: "Built a secure full-stack Blog Application with user authentication and seamless post management (CRUD). Delivered responsive UI, detailed post views, and optimized performance for an engaging user experience.",
     image:blog,
     tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","cors","Mongoose"],
     demoLink: "https://frontend-of-mern-crud.vercel.app",
@@ -30,7 +30,7 @@ export const featuredProjects = [
   {
     id: 2,
     title: "Fee Management System",
-    description: "Built a full-stack Fee Management System to track students and their fee statuses with real-time updates. Integrated a secure simulation-based payment feature for managing transactions. Designed a responsive interface to streamline student and fee management efficiently.",
+    description: "Developed a full-stack Fee Management System with real-time fee tracking and secure payment simulation. Designed a responsive interface to simplify student management and streamline transactions.",
     image:fee,
     tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","Mongoose"],
     demoLink: "https://fee-management-system-frontend.vercel.app",
@@ -40,7 +40,7 @@ export const featuredProjects = [
   {
     id: 3,
     title: "Currency Converter",
-    description: "Developed a responsive Currency Converter using HTML, CSS, and JavaScript. Integrated a live exchange rate API to convert currencies instantly between different countries. Designed with a simple and user-friendly interface for quick and accurate conversions.",
+    description: "Built a responsive Currency Converter using HTML, CSS, and JavaScript with live exchange rate API integration. Delivered a simple, user-friendly interface for fast and accurate conversions.",
     image: currencyconverter,
     tech: ["Html", "Css", "Currency Converter API", "javaScript"],
     demoLink: "https://mustafa-mmd.github.io/currency-converter/",
@@ -50,9 +50,9 @@ export const featuredProjects = [
   {
     id: 4,
     title: "Furni Interior Design",
-    description: "We help you make modern interior choices that reflect your style and comfort. Our design-first approach blends aesthetics with functionality, creating spaces that feel both elegant and livable. Explore a sleek, responsive website crafted to inspire and transform your interiors.",
+    description: "Crafted a sleek, responsive website for modern interior design, blending aesthetics with functionality. Showcased elegant, livable spaces to inspire and transform interiors.",
     image: furni,
-    tech: ["Html", "Css", "Javascript", "Responsive Design"],
+    tech: ["Html", "Css", "Javascript", "Responsive Design", "hover effects", "Modern UI"],
     demoLink: "https://mustafa-mmd.github.io/ecommerce-websit/",
     codeLink: "https://github.com/mustafa-mmd/ecommerce-websit",
     featured: false
@@ -61,9 +61,9 @@ export const featuredProjects = [
   {
     id: 5,
     title: "Weather Application",
-    description: "A responsive Weather Application that provides real-time weather updates for any location using a public weather API. Features include current temperature, humidity, wind speed, and weather conditions with an intuitive user interface.",
+    description: "Built a responsive Weather App delivering real-time forecasts with temperature, humidity, wind speed, and conditions. Designed with an intuitive interface for quick and accurate updates.",
     image:weather,
-    tech: ["Html", "Css", "JavaScript","Weather Api", "Responsive Design"],
+    tech: ["Html", "Css", "JavaScript","Weather Api", "Responsive Design", "Search Functionality"],
     demoLink: "https://mustafa-mmd.github.io/weather-application/",
     codeLink: "https://github.com/mustafa-mmd/weather-application",
     featured: true
@@ -71,7 +71,7 @@ export const featuredProjects = [
   {
     id: 6,
     title: "CRUD Operations App",
-    description: "Developed a CRUD application using Node.js, Express.js, MongoDB, and EJS for dynamic rendering. Users can create, read, update, and delete records with seamless database integration. Built with a clean UI and efficient backend for smooth data management.",
+    description: "Developed a CRUD app with Node.js, Express, MongoDB, and EJS for dynamic rendering. Enabled seamless create, read, update, and delete operations with a clean UI and efficient backend.",
     image:crud ,
     tech: ["Node js", "Express js","Mongoose","MonogoDB","Ejs" ,"Tailwind CSS", "Dotenv","Serverless Https"],
     demoLink: "https://crud-operation-with-ejs.onrender.com",

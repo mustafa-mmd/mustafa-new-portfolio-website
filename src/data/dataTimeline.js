@@ -70,6 +70,23 @@ export const timelineData = [
 },
 {
   id: 5,
+  title: "Next.js 14 Certification",
+  company: "Coursera (Institute Packets)",
+  period: "2025",
+  description: "Completed the Next.js 14 Certification from Coursera Institute Packets. Built and deployed full-stack web applications using Next.js, focusing on server-side rendering, routing, and modern React features.",
+  icon: "🏆",
+  skills: [
+    "Next.js 14",
+    "React",
+    "Server-Side Rendering",
+    "Routing",
+    "API Integration",
+    "Deployment"
+  ]
+},
+
+{
+  id: 6,
   title: "Prompt Engineering Certification",
   company: "Vanderbilt University (Coursera)",
   period: "2025",

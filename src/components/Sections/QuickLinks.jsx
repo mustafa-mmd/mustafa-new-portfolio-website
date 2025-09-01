@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
+// Importing from react-icons
+import { FaUserAlt } from "react-icons/fa";        // Profile/User Icon
+import { GiSkills } from "react-icons/gi";        // Skills Icon
+import { AiOutlineProject } from "react-icons/ai"; // Project Icon
+import { MdOutlineContactMail } from "react-icons/md"; // Contact Icon
 
 export default function QuickLinks() {
   const links = [
-    { name: "About Me", href: "/about", icon: "👤", color: "from-blue-500 to-indigo-500" },
-    { name: "My Skills", href: "/skills", icon: "⚡", color: "from-green-500 to-emerald-500" },
-    { name: "All Projects", href: "/projects", icon: "🚀", color: "from-purple-500 to-pink-500" },
-    { name: "Contact Me", href: "/contact", icon: "✉️", color: "from-red-500 to-orange-500" },
+    { name: "About Me", href: "/about", icon:<FaUserAlt className="text-red-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />, color: "from-blue-500 to-indigo-500" },
+    { name: "My Skills", href: "/skills", icon:<GiSkills className="text-yellow-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />
+, color: "from-green-500 to-emerald-500" },
+    { name: "All Projects", href: "/projects", icon:<AiOutlineProject className="text-teal-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />, color: "from-purple-500 to-pink-500" },
+    { name: "Contact Me", href: "/contact", icon: <MdOutlineContactMail className="text-purple-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />, color: "from-red-500 to-orange-500" },
   ];
 
   return (

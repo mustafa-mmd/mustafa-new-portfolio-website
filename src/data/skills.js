@@ -8,7 +8,7 @@ export const skills = [
       { name: "JavaScript", icon: "📜", level: "Expert" },
       { name: "React", icon: "⚛️", level: "Expert" },
       { name: "Redux Toolkit", icon: "🛠️", level: "Advanced" },
-      { name: "Next.js", icon: "🚀", level: "Advanced" },
+      { name: "Next.js", icon: "👨‍💻", level: "Advanced" },
       { name: "TypeScript", icon: "🔷", level: "Advanced" }
     ]
   },

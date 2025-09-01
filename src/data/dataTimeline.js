@@ -20,7 +20,7 @@ export const timelineData = [
   company: "Freelance",
   period: "2025 - Present",
   description: "Designing and developing end-to-end web applications for clients, with expertise in both frontend and backend technologies. Focused on delivering responsive UIs, scalable backend systems, and optimized digital solutions using the MERN stack and modern web tools.",
-  icon: "🚀",
+  icon: "🌐",
   skills: [
     "Full-Stack Development",
     "MERN Stack",

@@ -1,5 +1,5 @@
 import blog from '.././assets/blog.png'
-import fee from '.././assets/fee.png'
+import fee from '.././assets/fee.jpg'
 import calculator from '.././assets/calculator.png'
 import chair from '.././assets/chair.png'
 import cofeeshop from '.././assets/cofeeshop.png'
@@ -17,18 +17,60 @@ import userlist from '.././assets/userlist.png'
 import weather from '.././assets/weather.png'
 import editor from '.././assets/editor.png'
 import codereviewer from '.././assets/codereviewer.png'
+import deptportal from '.././assets/cs&it.jpg'
+import propertypulse from '.././assets/propertypulse.jpg'
 export const featuredProjects = [
-  {
-    id: 1,
-    title: "Blog-Application",
-    description: "Built a secure full-stack Blog Application with user authentication and seamless post management (CRUD). Delivered responsive UI, detailed post views, and optimized performance for an engaging user experience.",
-    image:blog,
-    tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","cors","Mongoose"],
-    demoLink: "https://frontend-of-mern-crud.vercel.app",
-    codeLink: "",
-    featured: true
-  },
-  {
+   {
+  id: 6,
+  title: "Property Pulse",
+  description:
+    "A modern real estate platform designed to help users seamlessly browse, list, and manage residential and commercial properties. It offers an intuitive interface with detailed property insights, user authentication, and a responsive experience for buyers, sellers, and agents.",
+  image: propertypulse, // import your image asset
+  tech: [
+    "Next.js",
+    "React",
+    "MongoDB",
+    "Mongoose",
+    "Tailwind CSS",
+    "Next Auth",
+    "Cloudinary",
+    "sandbox payfast",
+    "Mapbox GL",
+    "React Map GL",
+    "PhotoSwipe",
+    "React Toastify",
+    "React Icons",
+    "React Spinners",
+  ],
+  demoLink: "https://final-year-project-property-pulse.vercel.app/",
+  codeLink: "https://github.com/mustafa-mmd/finalYearProject-propertyPulse",
+  featured: true,
+},
+
+{
+  id: 1,
+  title: "Agriculture University ICS & IT Portal",
+  description:
+    "A responsive departmental management system for Agriculture University’s ICS & IT departments, offering access to course outlines, timetables, notes, and updates. Designed for CS, SE, Data Science, Cybersecurity, IT, and AI programs with a clean, modern, and user-friendly interface",
+  image: deptportal, // import your project image here
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion",
+    "React Router DOM",
+    "React Hook Form",
+    "React Dropzone",
+    "React PDF",
+    "Day.js",
+    "Lucide React",
+    "ESLint",
+  ],
+  demoLink: "https://ics-i-t-management-system.vercel.app/",
+  codeLink: "https://github.com/mustafa-mmd/Ics-iT-management-system",
+  featured: true,
+},
+{
   id: 2,
   title: "Photo Editing App",
   description: "A modern photo editor app built with Next.js, featuring background removal, custom backgrounds, and editing adjustments.Edit your images effortlessly and download them in multiple formats (JPG, PNG, WebP). " ,
@@ -48,9 +90,20 @@ export const featuredProjects = [
   codeLink: "https://github.com/mustafa-mmd/Image-editing-app",
   featured: true
 },
-
   {
     id: 3,
+    title: "Blog-Application",
+    description: "Built a secure full-stack Blog Application with user authentication and seamless post management (CRUD). Delivered responsive UI, detailed post views, and optimized performance for an engaging user experience.",
+    image:blog,
+    tech: ["React", "Node.js", "MongoDB Atlas", "Express","jwt","bcryptjs","cors","Mongoose"],
+    demoLink: "https://frontend-of-mern-crud.vercel.app",
+    codeLink: "",
+    featured: true
+  },
+  
+
+  {
+    id: 4,
     title: "Fee Management System",
     description: "Developed a full-stack Fee Management System with real-time fee tracking and secure payment simulation. Designed a responsive interface to simplify student management and streamline transactions.",
     image:fee,
@@ -59,25 +112,21 @@ export const featuredProjects = [
     codeLink: "https://github.com/mustafa-mmd/fee-management-system-frontend",
     featured: true
   },
-  {
-    id: 4,
-    title: "Ai Power Code reviewer",
-    description: "An AI-powered code reviewer built with the MERN stack, leveraging the Gemini API to analyze code.It provides smart suggestions and improvements to help developers write cleaner, more efficient code",
-    image:codereviewer,
-    tech: ["React", "Node.js", "Express",'Gemini Api','highlight.js',"Prismjs",'react-markdown','react-simple-code-editor'],
-    demoLink: "https://ai-power-code-reviewer-frontend.vercel.app/",
-    codeLink: "https://github.com/mustafa-mmd/ai-power-code-reviewer-frontend",
-    featured: true
-  },
-  {
-    id: 13,
-    title: "Sunglasses Store",
-    description: "An e-commerce website for a sunglasses store, featuring a sleek design and user-friendly interface. Showcases various sunglasses products with detailed views and smooth navigation. Built to provide an engaging shopping experience.",
-    image:sunglasses,
-    demoLink: "https://pakshades-8gz5.vercel.app/",
-    codeLink: "https://github.com/mustafa-mmd/pakshades",
-    tech: ["React", "Css", "emailjs Api", "Responsive Design","Add to cart", "Filteration","searching","material ui"]
-  },
+
+
+
+
+  // {
+  //   id: 4,
+  //   title: "Ai Power Code reviewer",
+  //   description: "An AI-powered code reviewer built with the MERN stack, leveraging the Gemini API to analyze code.It provides smart suggestions and improvements to help developers write cleaner, more efficient code",
+  //   image:codereviewer,
+  //   tech: ["React", "Node.js", "Express",'Gemini Api','highlight.js',"Prismjs",'react-markdown','react-simple-code-editor'],
+  //   demoLink: "https://ai-power-code-reviewer-frontend.vercel.app/",
+  //   codeLink: "https://github.com/mustafa-mmd/ai-power-code-reviewer-frontend",
+  //   featured: true
+  // },
+  
   
   
   {
@@ -94,6 +143,15 @@ export const featuredProjects = [
 
 export const allProjects = [
   ...featuredProjects,
+  {
+    id: 13,
+    title: "Sunglasses Store",
+    description: "An e-commerce website for a sunglasses store, featuring a sleek design and user-friendly interface. Showcases various sunglasses products with detailed views and smooth navigation. Built to provide an engaging shopping experience.",
+    image:sunglasses,
+    demoLink: "https://pakshades-8gz5.vercel.app/",
+    codeLink: "https://github.com/mustafa-mmd/pakshades",
+    tech: ["React", "Css", "emailjs Api", "Responsive Design","Add to cart", "Filteration","searching","material ui"]
+  },
   {
     id: 7,
     title: "Currency Converter",
@@ -210,13 +268,5 @@ export const allProjects = [
     codeLink: "https://github.com/mustafa-mmd/Modern-Chair",
     tech: ["Html", "Css","Responsive Design", "Logic for color changing of image", "E-commerce Design"]
   },
-  // {
-  //   id: 19,
-  //   title: "E-commerce Website",
-  //   description: "A modern e-commerce store built with API integration for dynamic product listings. Implemented Redux Toolkit for efficient state management, including seamless add-to-cart and remove functionality. Designed with a responsive UI.",
-  //   image:ecommerce,
-  //   demoLink: "https://silver-palmier-d293fe.netlify.app/",
-  //   codeLink: "https://github.com/mustafa-mmd/my-ecommerce-store-redux-tolkit",
-  //   tech: ["React","Redux Tolkit", "Api for products","Css","Responsive Design","Add to cart","material Ui"]
-  // },
+ 
 ];

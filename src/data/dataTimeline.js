@@ -24,6 +24,7 @@ export const timelineData = [
   skills: [
     "Full-Stack Development",
     "MERN Stack",
+    "NEXT.JS",
     "React.js",
     "Node.js & Express.js",
     "MongoDB",

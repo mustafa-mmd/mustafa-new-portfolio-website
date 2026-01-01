@@ -47,12 +47,18 @@ export const skills = [
     category: "Tools & Platforms",
     icon: "🛠️",
     items: [
-      { name: "Git", icon: "📚", level: "Expert" },
-      { name: "GitHub", icon: "🐙", level: "Expert" },
-      { name: "VS Code", icon: "💻", level: "Expert" },
-      { name: "Vercel", icon: "▲", level: "Advanced" },
-      { name: "Netlify", icon: "🌐", level: "Advanced" },
-      { name: "Render", icon: "☁️", level: "Intermediate" }
+{ name: "Git", icon: "🐙", level: "Expert" },
+{ name: "GitHub", icon: "💻", level: "Expert" },
+{ name: "GitHub Actions", icon: "⚡", level: "Advanced" },
+{ name: "Docker", icon: "🐳", level: "Advanced" },
+{ name: "CI/CD Pipeline", icon: "🔄", level: "Advanced" },
+{ name: "Postman", icon: "📬", level: "Advanced" },
+{ name: "Vercel", icon: "▲", level: "Advanced" },
+{ name: "Netlify", icon: "🌐", level: "Advanced" },
+{ name: "Render", icon: "☁️", level: "Advanced" },
+
+
+
     ]
   }
 ];

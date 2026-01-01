@@ -173,7 +173,7 @@ const About = () => {
               </span>{" "}
               specializing in{" "}
               <span className="text-primary-300 font-medium">
-                Full-Stack Web Development (MERN Stack)
+                Full-Stack Web Development (MERN Stack) and NEXT JS
               </span>
               . I thrive on crafting responsive, user-centric applications with
               clean code and modern design principles.
@@ -191,10 +191,12 @@ const About = () => {
                 HTML, CSS, JavaScript, Tailwind, React.js, Redux Toolkit,
                 Node.js, Express.js, MongoDB
               </span>
-              . I’m experienced with Git/GitHub and deployment platforms like{" "}
-              <span className="text-primary-400">Vercel, Netlify, Render</span>.
-              I constantly explore new tools to stay ahead in the tech world,
-              aiming to build impactful, scalable, and secure solutions.
+ <p>
+  Experienced with <span className="text-primary-400">Git/GitHub</span> and deployment & DevOps tools such as{" "}
+  <span className="text-primary-400">Docker, GitHub Actions, CI/CD pipelines, Vercel, Netlify, Render</span>, 
+  I continuously explore cutting-edge technologies to create scalable, efficient, and secure applications.
+</p>
+
             </motion.p>
           </div>
         </div>
@@ -207,7 +209,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-center mt-20 mb-12 bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent"
         >
-          Education & Experience
+          Education & CERTIFICATES/Experience
         </motion.h3>
 
         {/* Timeline */}

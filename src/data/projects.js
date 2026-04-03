@@ -25,21 +25,42 @@ export const featuredProjects = [
     id: 1,
     title: "BlackCart",
     description:
-      "A full-stack eCommerce platform inspired by Daraz, focused on computer hardware and accessories. Built with a modern React frontend and scalable Node.js backend, it features secure authentication, real-time updates, product management, and integrated payment systems for a smooth and reliable shopping experience.",
+      "BlackCart is a modern full-stack eCommerce platform inspired by leading marketplaces like Daraz and Shopify, built to simplify buying and selling computer hardware and accessories. It delivers a fast, intuitive, and reliable shopping experience with real-time updates, secure authentication, and efficient order management. Designed with scalability and performance in mind, the platform streamlines product discovery, cart management, and cash-on-delivery ordering, making it a practical, real-world solution for digital commerce.",
     image: blackcart,
     tech: [
+      // Frontend
       "React",
       "Vite",
       "Redux Toolkit",
-      "React Query",
+      "TanStack React Query",
       "Tailwind CSS",
+      "Framer Motion",
+      "React Hook Form",
+      "Zod",
+      "Axios",
+      "React Router",
+
+      // Backend
       "Node.js",
       "Express.js",
       "MongoDB",
+      "Mongoose",
+
+      // Auth & Security
       "JWT",
+      "Passport.js (Google OAuth)",
+      "bcryptjs",
+      "Helmet",
+      "Express Rate Limit",
+      "XSS Protection",
+      "Mongo Sanitize",
+
+      // Integrations
       "Stripe",
       "Cloudinary",
       "Socket.io",
+      "Nodemailer",
+      "Multer",
     ],
     demoLink: "https://blackcart-frontend.vercel.app/",
     codeLink: "https://github.com/mustafa-mmd/blackcart-frontend",

@@ -25,7 +25,8 @@ export const featuredProjects = [
     id: 1,
     title: "BlackCart",
     description:
-      "A modern full-stack eCommerce platform inspired by leading marketplaces like Daraz and Shopify, built to simplify buying and selling computer hardware and accessories. BlackCart offers a seamless and intuitive experience for users to explore products, manage carts, and place orders with ease.\n\nIt features secure authentication, real-time updates, and efficient order management, ensuring a smooth and reliable shopping journey. With a responsive design and optimized performance, the platform delivers a consistent experience across all devices.\n\nDesigned with scalability in mind, BlackCart streamlines product discovery, image handling, and cash-on-delivery ordering, making it a practical, real-world solution for modern digital commerce.",
+      "A modern full-stack eCommerce platform inspired by Daraz and Shopify, built to help users seamlessly browse, order, and manage computer hardware and accessories. It offers a responsive and intuitive interface with secure authentication, real-time updates, and efficient order management, supporting cash-on-delivery for a smooth shopping experience.",
+    image: blackcart, // import your image asset
     tech: [
       "React",
       "Vite",
